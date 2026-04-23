@@ -1,0 +1,45 @@
+{
+  "ruleset_id": "wa-state-2026-v1",
+  "jurisdiction": "WA",
+  "effective_date": "2026-04-23",
+  "cohort": "class_of_2026",
+  "source_notes": [
+    "OSPI Graduation overview",
+    "OSPI Graduation Pathways",
+    "OSPI High School and Beyond Plan",
+    "State Board of Education graduation requirements"
+  ],
+  "graduation_requirements": {
+    "minimum_total_credits": 24.0,
+    "components": [
+      "credits",
+      "high_school_and_beyond_plan",
+      "graduation_pathway"
+    ]
+  },
+  "subject_credit_requirements": [
+    { "subject": "english", "min_credits": 4.0 },
+    { "subject": "math", "min_credits": 3.0 },
+    { "subject": "science", "min_credits": 3.0 },
+    { "subject": "social_studies", "min_credits": 3.0 },
+    { "subject": "arts", "min_credits": 2.0 },
+    { "subject": "health_fitness", "min_credits": 2.0 },
+    { "subject": "career_technical_education", "min_credits": 1.0 },
+    { "subject": "world_language_or_personalized_pathway", "min_credits": 2.0 },
+    { "subject": "electives", "min_credits": 4.0 }
+  ],
+  "personalized_pathway_requirements": {
+    "min_credits": 3.0,
+    "must_align_with_hsbp": true
+  },
+  "graduation_pathway_options": [
+    "state_assessment",
+    "dual_credit_course_sequence",
+    "ap_ib_cambridge",
+    "sat_act",
+    "asvab",
+    "cte_sequence"
+  ],
+  "hsbp_required": true,
+  "district_override_allowed": true
+}
